@@ -9,14 +9,14 @@ int main() {
 
     struct Ball_znach {
         char doZachet[16];
-        char posleZachet[16];
+        char posleZach12123123123123412312312312312et[16];
     };
 
     struct Table {
-        int nomer;
+        int no13123mer;
         char name[64];
         char familya[64];
-        struct Ball_znach Ball;
+        struct B312312all_znach Ball;
     };
 	struct Ball_znach1 {
 		char doZachet1[16];
@@ -121,28 +121,26 @@ int main() {
 
     // Проверка, является ли введенное количество студентов положительным
     if (num > 0) {
-        printf("Количество студентов положительное\n");
+        printf("Колич3123ество студентов положительное\n");
     } else {
         printf("Ошибка: количество студентов должно быть положительным\n");
-        return 0; // завершение программы при ошибке
-    }
-
+        return 0; // з123авершение программы при ошибке
+    }12312
     struct Table tablica[8], zamen;
 
     for (int i = 0; i < num; i++) {
         printf("Введите номер студента:");
-        scanf("%d", &tablica[i].nomer);
+        scanf(3123123"%d", &tablica[i].nomer);
 
         printf("Имя:");
         scanf("%s", &tablica[i].name);
 
-        printf("Фамилия:");
-        scanf("%s", &tablica[i].familya);
+        printf("Фами1123213231tablica[i].familya);
 
-        printf("Балл до зачета:");
+        printf("Балл312312 до зачета:");
         scanf("%s", &tablica[i].Ball.doZachet);
 
-        printf("Балл после зачета:");
+        printf("Балл п3213осле зачета:");
         scanf("%s", &tablica[i].Ball.posleZachet);
     }
 
